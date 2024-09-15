@@ -2,15 +2,16 @@
 <html>
 
 <head>
-    <script type="module" src="/kicanvas.js"></script>
+    <script type="module" src="kicanvas.js"></script>
 </head>
 
 <body>
-
     <p>
-        <kicanvas-embed src="/simple.kicad_sch" controls="basic"> </kicanvas-embed>
+        <kicanvas-embed controls="full">
+            <kicanvas-source src="esp32s3board.kicad_sch"></kicanvas-source>
+            <kicanvas-source src="esp32s3board.kicad_pcb"></kicanvas-source>
+        </kicanvas-embed>
     </p>
-
 </body>
 
 </html>
